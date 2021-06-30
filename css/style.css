@@ -53,29 +53,19 @@ footer{
     height: 100px;
     margin-top: 30px;
 }
-#move {
-    display: inline-block;
-    margin-left: 20px;
-    position: relative;
-  top:  -70px;
-}
 
 
 section p {
-    max-width: 400px;
-    max-height: 400px;
-    white-space: nowrap;
-    overflow: auto;
+    width: 400px;
+    height: 350px;
+    overflow: scroll;
 }
-.button {
-    width: 100px;
-    height: 50px;
-    transition-duration: 350s;
-  }
-  
-  .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-  }   
-    
 
+
+
+button {
+    background-color: black;
+    color: blanchedalmond;
+    height: 20px;
+    width: 150px;
+}
